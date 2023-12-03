@@ -10,4 +10,10 @@ public class testController {
     public String test(){
         return "Hey there we have started";
     }
+
+    @RequestMapping("/name")
+    public String name(){
+        return "Safwan";
+    }
+
 }
