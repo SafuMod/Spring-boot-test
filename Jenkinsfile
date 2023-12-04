@@ -6,7 +6,7 @@ pipeline{
         
           steps {
             echo "Building the Java Application"
-            withMaven {
+            withMaven() {
               sh "mvn clean verify"
             }
           }
